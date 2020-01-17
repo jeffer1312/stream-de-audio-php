@@ -11,5 +11,8 @@ se a pagina esta online e se nao estiver recarregar a pagina ate que o link volt
 do audio... Bem simples mas resolveu meu problema
 
 
-------------------------Atualização--------------------------
+--------------------------------------------------------Atualização-----------------------------------------------------------
+
+
+
 Coloquei pra receber  o audio  usado pela placa stero mix do windows usando javascript para poder verificar se mesmo se o site estiver online mas nao estiver recebendo audio ele recarregar ate que os 2 estejam certos....
