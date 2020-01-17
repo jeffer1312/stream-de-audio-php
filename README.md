@@ -11,7 +11,7 @@ se a pagina esta online e se nao estiver recarregar a pagina ate que o link volt
 do audio... Bem simples mas resolveu meu problema
 
 
---------------------------------------------------------Atualização-----------------------------------------------------------
+--------------------------------------------------------Atualização--------------------------------------------------
 
 
 
