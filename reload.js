@@ -1,5 +1,5 @@
 function time() {
-    var delay = 10000;
+    var delay = 15000;
 
 
     setInterval(function() {
@@ -7,8 +7,8 @@ function time() {
         //console.log(volume);
         if (volume == 0.00000000) {
 
-            //console.log('sem audio');
-            window.location.reload(true);
+            // console.log('sem audio');
+            window.location.reload();
         } else {
             // console.log(volume)
             //console.log('com audio');
@@ -22,21 +22,22 @@ time();
 function http() {
     return $.get("./CheckOnline.php", function(data) {
         let httpcode = data;
+        //console.log('http primeiro', httpcode);
 
-        function Reloader() {
+        setTimeout(function Reloader() {
 
             if (httpcode >= 200 && httpcode < 300) {
-                //console.log('site online!');
+                // console.log('site online!');
                 $('.iframe').fadeIn(2000);
 
             } else {
-                // console.log('site offine!');
+                //console.log('site offine!');
                 $('.iframe').fadeOut();
-                document.location.reload(true);
+                document.location.reload();
             }
-        }
+        }, 8000)
 
-        Reloader()
+        //Reloader();
 
 
 
